@@ -60,5 +60,16 @@ public class Main {
             System.out.println("Месяц " + i + " сумма накоплений равна " + salary + " рублей");
         }
         System.out.println();
+        System.out.println();
+
+        // Задача №9
+        System.out.println("Задача №9:");
+        salary = 0;
+        for (int i = 1; i <= 12; i++) {
+            salary += 29000;
+            System.out.println("Месяц " + i + " сумма накоплений равна " + salary + " рублей");
+            salary += salary / 100;
+        }
+        System.out.println();
     }
 }

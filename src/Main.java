@@ -50,5 +50,15 @@ public class Main {
             System.out.print(i + " ");
         }
         System.out.println();
+        System.out.println();
+
+        // Задача №8
+        System.out.println("Задача №8:");
+        int salary = 0;
+        for (int i = 1; i <= 12; i++) {
+            salary += 29000;
+            System.out.println("Месяц " + i + " сумма накоплений равна " + salary + " рублей");
+        }
+        System.out.println();
     }
 }

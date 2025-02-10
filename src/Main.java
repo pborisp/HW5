@@ -20,5 +20,12 @@ public class Main {
             System.out.println(i);
         }
         System.out.println();
+
+        // Задача №4
+        System.out.println("Задача №4:");
+        for (int i = 10; i >= -10; i--) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
     }
 }

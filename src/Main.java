@@ -71,5 +71,12 @@ public class Main {
             salary += salary / 100;
         }
         System.out.println();
+
+        // Задача №10
+        System.out.println("Задача №10:");
+        int count = 2;
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(count + "*" + i + "=" + count * i);
+        }
     }
 }
